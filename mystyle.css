@@ -1,0 +1,52 @@
+body {
+    background-color: deepskyblue
+}
+
+h1 {
+    background-image: url(https://pp.userapi.com/c834201/v834201663/1664ca/zrpIuoRQOQk.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 150px;
+    margin-top: 0px;
+}
+
+#div01 {
+    background-color: royalblue;
+    margin-left: 520px;
+    margin-right: 520px;
+    padding: 50px;
+    border: 1px hidden;
+    border-radius: 30px;
+    box-sizing: border-box;
+    /*вроде должно делать квадратный бокс, но не делает*/
+
+
+
+}
+
+#div02 {
+    height:300px;
+    width:200px;
+    border-top: 2px solid;
+    border-left: solid 15px darkmagenta;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    
+}
+
+p.lol {
+    font-family: "georgia";
+    border: 2px solid rgb(23, 134, 23);
+    border-radius: 5px
+}
+
+/*не работает*/
+p.lmao {
+    font-family: 'Times New Roman';
+    border: 3px dotted, yellowgreen
+}
+
+p {
+    text-align: center
+}
